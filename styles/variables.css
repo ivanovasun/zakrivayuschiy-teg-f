@@ -26,6 +26,7 @@
                 repeating-linear-gradient(#e7e7e7 0.01%, #1a1a1a);
     --red: #FF0000;
     --stroke: #000000;
+    --floppy-color:#FFFFFF;
 }
 
 :root.theme-dark {
@@ -50,5 +51,8 @@
     --bckg-img: repeating-linear-gradient(rgb(0 0 0 / 1) 0px 2px, rgb(0 0 0 / 0) 2px 4px),
     repeating-linear-gradient(0.25turn, rgb(0 0 0 / 1) 0px 2px, rgb(0 0 0 / 0) 2px 4px),
     repeating-linear-gradient(#007f0c 0.01%, #004306);
+    --red: #FF0000;
+    --stroke: #00CC14;
+    --floppy-color:#00CC14;
     }
 }
