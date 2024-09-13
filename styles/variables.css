@@ -1,1 +1,54 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+    --accent-font: PressStart2P;
+    --main-font: Inter;
+    --paragraph-weight: 700;
+    --text-weight: 400;
+    --bckg-color: #FFFFFF;
+    --text-color: #000000;
+    --bckg-img: repeating-linear-gradient(rgb(211 211 211 / 1) 0px 2px, rgb(211 211 211 / 0) 2px 4px),
+                repeating-linear-gradient(0.25turn, rgb(211 211 211 / 1) 0px 2px, rgb(211 211 211 / 0) 2px 4px),
+                repeating-linear-gradient(#e7e7e7 0.01%, #1a1a1a);
+    --red: #FF0000;
+    --stroke: #000000;
+    --floppy-color:#FFFFFF;
+}
+
+:root.theme-light {
+    --accent-font: 'PressStart2P';
+    --main-font: 'Inter';
+    --paragraph-weight: 700;
+    --text-weight: 400;
+    --bckg-color: #FFFFFF;
+    --text-color: #000000;
+    --bckg-img: repeating-linear-gradient(rgb(211 211 211 / 1) 0px 2px, rgb(211 211 211 / 0) 2px 4px),
+                repeating-linear-gradient(0.25turn, rgb(211 211 211 / 1) 0px 2px, rgb(211 211 211 / 0) 2px 4px),
+                repeating-linear-gradient(#e7e7e7 0.01%, #1a1a1a);
+    --red: #FF0000;
+    --stroke: #000000;
+}
+
+:root.theme-dark {
+    --paragraph-weight: 785;
+    --text-weight: 465;
+    --bckg-color: #000000;
+    --text-color: #00CC14;
+    --bckg-img: repeating-linear-gradient(rgb(0 0 0 / 1) 0px 2px, rgb(0 0 0 / 0) 2px 4px),
+    repeating-linear-gradient(0.25turn, rgb(0 0 0 / 1) 0px 2px, rgb(0 0 0 / 0) 2px 4px),
+    repeating-linear-gradient(#007f0c 0.01%, #004306);
+    --red: #FF0000;
+    --stroke: #00CC14;
+    --floppy-color:#00CC14;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+    --paragraph-weight: 785;
+    --text-weight: 465;
+    --bckg-color: #000000;
+    --text-color: #00CC14;
+    --bckg-img: repeating-linear-gradient(rgb(0 0 0 / 1) 0px 2px, rgb(0 0 0 / 0) 2px 4px),
+    repeating-linear-gradient(0.25turn, rgb(0 0 0 / 1) 0px 2px, rgb(0 0 0 / 0) 2px 4px),
+    repeating-linear-gradient(#007f0c 0.01%, #004306);
+    }
+}

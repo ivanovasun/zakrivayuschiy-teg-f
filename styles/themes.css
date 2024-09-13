@@ -4,3 +4,14 @@
 ✦ theme-light — класс светлой темы
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
+.theme-dark .page {
+    font-weight: 500;
+}
+
+.theme-dark .button__text {
+    color: var(--text-color);
+    mix-blend-mode: difference;}
+
+.theme-dark .floppy-svg__dialog {
+    --floppy-color: #00CC14;
+}
