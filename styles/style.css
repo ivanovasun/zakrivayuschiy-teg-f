@@ -203,8 +203,8 @@
   filter: sepia(0.5) contrast(0.5) brightness(150%);
 }
 
-.hue-rotate {
-  filter: hue-rotate(-65deg);
+.saturate {
+  filter: saturate(140%);
 }
 
 .lable {
