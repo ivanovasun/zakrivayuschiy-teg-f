@@ -10,7 +10,8 @@
 
 .theme-dark .button__text {
     color: var(--text-color);
-    mix-blend-mode: difference;}
+    mix-blend-mode: difference;
+}
 
 .theme-dark .floppy-svg__dialog {
     --floppy-color: #00CC14;

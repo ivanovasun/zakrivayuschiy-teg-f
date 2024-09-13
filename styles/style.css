@@ -24,7 +24,6 @@
   background-image: var(--bckg-img);
   background-size: cover;
   background-attachment: fixed;
-  display: block;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -89,7 +88,7 @@
   position: relative;
 }
 
-.theme-menu__button:disabled   {
+.theme-menu__button:disabled {
   opacity: 0.6;
   pointer-events: none;
 }
@@ -114,14 +113,14 @@
   }
 }
 
-.theme-menu__button:hover   {
-  opacity: 0.6; 
+.theme-menu__button:hover {
+  opacity: 0.6;
   transition: opacity 0.3s ease;
 }
 
 .theme-menu__button:focus {
   outline: none;
-  opacity: 0.6; 
+  opacity: 0.6;
 }
 
 .theme-menu__button::after {
@@ -243,7 +242,6 @@
 
 .card__paragraph {
   line-height: 117%;
-  font-weight: 400;
   font-weight: 400;
   font-size: 18px;
 }
@@ -404,8 +402,6 @@
   gap: 8px;
   justify-content: center;
   align-items: center;
-  padding-block: 0;
-  padding-inline: 0;
   border: 2px solid var(--text-color);
   margin-block-end: 105px;
   padding-inline-end: 21px;
