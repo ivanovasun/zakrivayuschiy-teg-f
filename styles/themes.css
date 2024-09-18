@@ -22,6 +22,10 @@
     font-weight: 500;
 }
 
+.theme-dark .wrapper__card-button {
+    padding-block-end: 24px;
+}
+
 .theme-dark .button__text {
     color: var(--text-color);
     mix-blend-mode: difference;
